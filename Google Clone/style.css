@@ -19,7 +19,6 @@ body{
 /* Header */
 header{
     height: 60px;
-    border: 1px solid red;
 }
 .navbar{
     height: 100%;
@@ -35,13 +34,45 @@ header{
     font-size: 14px;
 }
 .navbar ul li{
-    margin-left: 15px;
+    margin-left: 14px;
 }
 
 .navbar ul li a{
     color: black;
 }
 
-.navbar ul li a:hover {
+.link:hover {
     text-decoration: underline;
+}
+
+.circle-shadow{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-shadow:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.menu-icon,
+.user-icon{
+    font-size: 18px;
+}
+
+.user-icon span{
+    color: white;
+}
+
+.user-icon{
+    background-color: orange;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
 }
