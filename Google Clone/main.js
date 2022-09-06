@@ -4,6 +4,9 @@ searchInput.addEventListener("keydown", function(event){
     if(event.code === "Enter"){
         search();
     }
+    else if(event.code === "NumpadEnter"){
+        search();
+    }
 })
 
 function search(){
