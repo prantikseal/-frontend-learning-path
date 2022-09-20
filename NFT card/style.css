@@ -45,9 +45,9 @@ a{ text-decoration: none;}
 }
 
 .card__product-img::after{
-    --aqua: hsl(178, 100%, 50%, 0.5);
+    --blue-yonder:hsl(216, 30%, 55%, 0.5);
     content: url(./images/icon-view.svg);
-    background: var(--aqua);
+    background: var(--blue-yonder);
     position: absolute;
     inset: 0;
     display: flex;
