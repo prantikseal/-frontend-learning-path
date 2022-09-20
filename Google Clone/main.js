@@ -8,6 +8,9 @@ searchInput.addEventListener("keydown", function(event){
     else if(event.code === "NumpadEnter"){
         search();
     }
+    else if(event.code === "Ok"){
+        search();
+    }
 })
 
 searchButton.addEventListener("click", function(){{
